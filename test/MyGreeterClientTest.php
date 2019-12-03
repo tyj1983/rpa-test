@@ -12,9 +12,10 @@ class MyGreeterClientTest extends TestCase
      */
     private MyGreeterClient $greeter;
 
+
     public function setUp(): void
     {
-        $this->greeter = new MyGreeterClient();
+        $this->greeter = MyGreeterClient::getSingleton();
     }
 
     public function testInstance() : void
