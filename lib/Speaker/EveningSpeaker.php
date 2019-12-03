@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Speaker;
+namespace Library\Speaker;
 
 
 class EveningSpeaker implements SpeakerInterface

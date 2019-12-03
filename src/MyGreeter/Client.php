@@ -4,7 +4,8 @@
 namespace MyGreeter;
 
 
-use Factory\SpeakerFactory;
+
+use Library\Factory\SpeakerFactory;
 
 class Client
 {

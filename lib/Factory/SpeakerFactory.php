@@ -1,12 +1,9 @@
 <?php
 
 
-namespace Factory;
+namespace Library\Factory;
 
-
-use Speaker\EveningSpeaker;
-use Speaker\MorningSpeaker;
-use Speaker\SpeakerInterface;
+use Library\Speaker\{EveningSpeaker, MorningSpeaker, SpeakerInterface};
 
 class SpeakerFactory
 {

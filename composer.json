@@ -7,10 +7,11 @@
     },
     "autoload": {
         "psr-0": {
-            "MyGreeter": "lib/"
+            "MyGreeter": "src/"
         },
         "psr-4": {
-            "MyTest\\": "test/"
+            "MyTest\\": "test/",
+            "Library\\": "lib/"
         }
     },
     "authors": [
